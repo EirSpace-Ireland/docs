@@ -1,0 +1,41 @@
+site_name: EirSpace Documentation
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  logo: static/logo.png
+  favicon: static/favicon.ico
+  font:
+    text: "Space Grotesk"
+    code: "JetBrains Mono"
+nav:
+  - Home: index.md
+  - Rocketry Team:
+      - Overview: teams/rocketry-team/index.md
+      - Avionics: teams/rocketry-team/avionics.md
+      - Structure: teams/rocketry-team/structure.md
+  - UAS Team:
+      - Overview: teams/uas-team/index.md
+      - Avionics: teams/uas-team/avionics.md
+      - Structure: teams/uas-team/structure.md
+  - Writing Docs: writing-docs.md
+extra_css:
+  - styles/palette.css
+  - styles/extra.css
+extra_javascript:
+  - styles/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
