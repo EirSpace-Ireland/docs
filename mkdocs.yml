@@ -1,6 +1,8 @@
 site_name: EirSpace Documentation
 theme:
   name: material
+  features:
+    - navigation.expand
   palette:
     - scheme: default
       primary: custom
@@ -19,22 +21,9 @@ theme:
   font:
     text: "Space Grotesk"
     code: "JetBrains Mono"
-nav:
-  - Home: index.md
-  - Rocketry Team:
-      - Overview: teams/rocketry-team/index.md
-      - Avionics: teams/rocketry-team/avionics.md
-      - Structure: teams/rocketry-team/structure.md
-  - UAS Team:
-      - Overview: teams/uas-team/index.md
-      - Avionics: teams/uas-team/avionics.md
-      - Structure: teams/uas-team/structure.md
-      - UAVs:
-          - Overview: teams/uas-team/uavs/index.md
-          - Dreolin:
-              - Overview: teams/uas-team/uavs/dreolin/index.md
-              - Propulsion Calculations: teams/uas-team/uavs/dreolin/propulsion-calculations.md
-  - Writing Docs: writing-docs.md
+plugins:
+  - search
+  - awesome-nav
 extra_css:
   - styles/palette.css
   - styles/extra.css
