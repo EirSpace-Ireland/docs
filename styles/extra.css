@@ -1,0 +1,74 @@
+
+[data-md-color-scheme="default"] {
+  --eirspace-ink: var(--black-600);
+  --eirspace-ink-soft: var(--dimgray-200);
+  --eirspace-paper: var(--white-200);
+  --eirspace-sand: var(--gainsboro-100);
+  --eirspace-gold: var(--sienna);
+  --eirspace-steel: var(--slategray);
+  --md-primary-fg-color: var(--black-600);
+  --md-primary-fg-color--light: var(--slategray);
+  --md-primary-fg-color--dark: var(--black-700);
+  --md-accent-fg-color: var(--sienna);
+  --md-default-bg-color: var(--white-200);
+  --md-default-fg-color: var(--black-600);
+  --md-default-fg-color--light: var(--dimgray-200);
+  --md-typeset-a-color: var(--slategray);
+  --md-footer-bg-color: var(--black-600);
+  --md-footer-fg-color: var(--white-400);
+}
+
+[data-md-color-scheme="slate"] {
+  --eirspace-ink: var(--white-100);
+  --eirspace-ink-soft: var(--silver-100);
+  --eirspace-paper: var(--black-600);
+  --eirspace-sand: var(--black-700);
+  --eirspace-gold: var(--mediumseagreen);
+  --eirspace-steel: var(--darkseagreen);
+  --md-primary-fg-color: var(--black-700);
+  --md-primary-fg-color--light: var(--black-600);
+  --md-primary-fg-color--dark: var(--black-700);
+  --md-accent-fg-color: var(--mediumseagreen);
+  --md-default-bg-color: var(--black-700);
+  --md-default-fg-color: var(--white-400);
+  --md-default-fg-color--light: var(--silver-100);
+  --md-typeset-a-color: var(--darkseagreen);
+  --md-footer-bg-color: var(--black-700);
+  --md-footer-fg-color: var(--white-400);
+}
+
+body {
+  background:
+    radial-gradient(1100px 600px at 10% -10%, rgba(104, 114, 125, 0.18), transparent 60%),
+    radial-gradient(900px 600px at 90% -20%, rgba(156, 92, 84, 0.12), transparent 55%),
+    var(--md-default-bg-color);
+}
+
+.md-header,
+.md-tabs {
+  background: linear-gradient(120deg, #0b2a1a 0%, #0f3b24 55%, #146b3a 100%);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: -0.01em;
+}
+
+.md-typeset hr {
+  border-color: rgba(11, 20, 26, 0.14);
+}
+
+.md-grid {
+  max-width: 72rem;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 16rem;
+  }
+
+  .md-sidebar--secondary {
+    width: 14rem;
+  }
+}

@@ -1,0 +1,67 @@
+:root {
+/* gainsboro */
+--gainsboro-100: #e7e7e7;
+--gainsboro-200: #dcdfe5;
+/* black */
+--black-100: #000;
+--black-200: rgba(0,0,0,.15);
+--black-300: rgba(0,0,0,.12);
+--black-400: rgba(0,0,0,.3);
+--black-500: rgba(0,0,0,.05);
+--black-600: #23282f;
+--black-700: #0e0e0e;
+--black-800: rgba(0,0,0,.8);
+--black-900: rgba(0,0,0,.1);
+--black-1000: rgba(35,40,47,.1);
+/* white */
+--white-100: #fff;
+--white-200: #fafafa;
+--white-300: rgba(255,255,255,0);
+--white-400: rgba(255,255,255,.9);
+--white-500: rgba(255,255,255,.25);
+--white-600: rgba(255,255,255,.5);
+--white-700: rgba(255,255,255,.3);
+--white-800: rgba(255,255,255,.35);
+/* darkgray */
+--darkgray-100: #a9a9a9;
+--darkgray-200: #b3b3b3;
+--darkgray-300: #9b9b9b;
+/* dimgray */
+--dimgray-100: #737373;
+--dimgray-200: #4a5464;
+--dimgray-300: #6e6e6e;
+--dimgray-400: rgba(79,79,79,.9);
+/* tomato */
+--tomato-100: #f0523d;
+/* lightgray */
+--lightgray-100: #d6d6d6;
+/* deepskyblue */
+--deepskyblue-100: #00b2ff;
+/* slategray */
+--slategray-100: #728197;
+/* silver */
+--silver-100: #c1c8d1;
+--silver-200: rgba(193,200,209,.6);
+/* gray */
+--gray-100: #757575;
+/* Logo Colors */
+--mediumseagreen: rgb(25, 159, 99);
+--black: rgb(4, 29, 26);
+--seagreen: rgb(4, 88, 46);
+--black: rgb(18, 32, 36);
+--teal: rgb(44, 108, 84);
+--black: rgb(20, 30, 25);
+/* Homepage Colors */
+--darkslategray: rgb(53, 76, 78);
+--silver: rgb(191, 185, 169);
+--mediumseagreen: rgb(13, 180, 104);
+--cadetblue: rgb(107, 142, 117);
+--dimgray: rgb(125, 101, 77);
+--black: rgb(13, 20, 21);
+--darkslategray: rgb(26, 48, 32);
+--darkseagreen: rgb(137, 198, 180);
+--slategray: rgb(104, 114, 125);
+--lightslategray: rgb(141, 154, 176);
+--sienna: rgb(156, 92, 84);
+--forestgreen: rgb(4, 172, 76);
+}
