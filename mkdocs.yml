@@ -29,6 +29,11 @@ nav:
       - Overview: teams/uas-team/index.md
       - Avionics: teams/uas-team/avionics.md
       - Structure: teams/uas-team/structure.md
+      - UAVs:
+          - Overview: teams/uas-team/uavs/index.md
+          - Dreolin:
+              - Overview: teams/uas-team/uavs/dreolin/index.md
+              - Propulsion Calculations: teams/uas-team/uavs/dreolin/propulsion-calculations.md
   - Writing Docs: writing-docs.md
 extra_css:
   - styles/palette.css
