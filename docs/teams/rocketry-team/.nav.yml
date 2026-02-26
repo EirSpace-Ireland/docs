@@ -1,0 +1,4 @@
+nav:
+  - Overview: index.md
+  - Avionics: avionics.md
+  - Structure: structure.md

@@ -1,0 +1,5 @@
+nav:
+  - Home: index.md
+  - Rocketry Team: teams/rocketry-team
+  - UAS Team: teams/uas-team
+  - Writing Docs: writing-docs.md

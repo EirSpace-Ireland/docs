@@ -2,7 +2,7 @@
   description = "MkDocs development environment";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -16,6 +16,7 @@
           packages = [
             pkgs.mkdocs
             pkgs.python3Packages.mkdocs-material
+            pkgs.python3Packages.mkdocs-awesome-nav
             pkgs.python3Packages.pymdown-extensions
           ];
         };
